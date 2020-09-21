@@ -1,0 +1,29 @@
+
+Git 폴더 옮기기 :Git HTTPS 복사 - 내컴퓨터 특정 폴더로 경로 - git clone 
+Git 올리기 : 내컴퓨터 리포지터리 폴더로 이동 - git add - git commit - git push
+내컴퓨터 : 로컬 리포지터리
+Git : 원격 리포지터리
+.git : 모든 작업 이력이 남아있는 공간
+수정내용 반영 :
+구성원x : PR(Pull Request)
+구성원 : commit, push
+
+Git 명령어
+git : 명령어 출력
+git --version : 버전 확인
+사용전 환경설정(global : 컴퓨터 전체) :
+git config --global user.name [계정] 
+git config --global user.email [이메일]
+git clone [Git HTTPS URL] : Git 리포지터리 내컴퓨터에 복사
+git add 파일명 : 파일 추가(Staging Area로 이동)
+git commit -m "제목" : 작업한 내용 반영(로컬 리포지터리 .git폴더에 기록)
+git push : Git허브에 실제 반영(원격 리포지터리)
+git fetch: 
+git merge: 
+git pull : fetch + pull
+git status : 상태 확인
+git reset 파일명 : Staing Area에서 내리기
+git add . : 모든 파일 추가
+git restore 파일명 : 파일 수정 무시하기
+git log : 이때까지의 기록확인(Q : 나오기)
+git reset --hard 해쉬값 : 특정 Commit지점으로 돌아가고 그 이후 지점은 다 삭제(soft : 이후 지점 삭제x)
