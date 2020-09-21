@@ -17,7 +17,7 @@ git config --global user.email [이메일]
 git clone [Git HTTPS URL] : Git 리포지터리 내컴퓨터에 복사
 git add 파일명 : 파일 추가(Staging Area로 이동)
 git commit -m "제목" : 작업한 내용 반영(로컬 리포지터리 .git폴더에 기록)
-git push : Git허브에 실제 반영(원격 리포지터리)
+git push : Git허브에 실제 반영(원격 리포지터리) f : 강제로 push
 git fetch: 
 git merge: 
 git pull : fetch + pull
@@ -27,3 +27,7 @@ git add . : 모든 파일 추가
 git restore 파일명 : 파일 수정 무시하기
 git log : 이때까지의 기록확인(Q : 나오기)
 git reset --hard 해쉬값 : 특정 Commit지점으로 돌아가고 그 이후 지점은 다 삭제(soft : 이후 지점 삭제x)
+got commit --amend : 알림말 변경(수정 : a, esc, :wq!)
+git branch : 브랜치 확인
+git branch develop : develop 브랜치 생성
+git checkout develop : develop 브랜치 지정
