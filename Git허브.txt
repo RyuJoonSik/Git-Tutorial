@@ -1,4 +1,5 @@
-마스터 브렌치
+<<<<<<< HEAD
+>>>>>>> develop
 Git 폴더 옮기기 :Git HTTPS 복사 - 내컴퓨터 특정 폴더로 경로 - git clone 
 Git 올리기 : 내컴퓨터 리포지터리 폴더로 이동 - git add - git commit - git push
 내컴퓨터 : 로컬 리포지터리
