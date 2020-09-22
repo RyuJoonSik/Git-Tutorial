@@ -45,6 +45,5 @@ git log --stat : 변경된 줄 수
 git log --graph : 브랜치, 병합정보
 git log -p : commit 항목
 git log --pretty : 지정 형식 출력 ex)git log --pretty=oneline
-
-
-
+git archive --format=zip [브랜치] -o =[파일명].zip : 소스코드 압축
+git rebase -i : commit 내용 수정
